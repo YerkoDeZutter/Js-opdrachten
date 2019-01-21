@@ -55,6 +55,11 @@
 
 // OPDRACHT 6
 
-function fullName(){
-  alert(firstNumber.value + " " + secondNumber.value)
+function multiplicatsie(){
+  alert(parseInt(firstNumber.value) * parseInt(secondNumber.value))
 }
+
+
+
+
+// OPDRACHT 7
