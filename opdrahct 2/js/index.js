@@ -263,3 +263,57 @@ function op12s1(){
     alert("de grade in u gegeven metode is " + grade)
 
 }
+
+
+
+
+
+// OPDRACHT 13
+
+function op13s1(){
+  let gewicht = parseInt(prompt("pleas geef wu gewicht"));
+  let lengte = parseFloat(prompt("pleas geef wu lengte").replace(/,/g, ''));
+
+  console.log(lengte);
+
+  let berekening = (gewicht / (lengte * lengte));
+
+  let BMI = berekening;
+
+  console.log(BMI);
+
+
+  if(BMI < 16.5){
+
+    alert("ondervoeding of hongersnood")
+
+  } else if (16.5 <= BMI && BMI < 18.5) {
+
+    alert("dunheid")
+
+  } else if (18.5 <= BMI && BMI < 25) {
+
+    alert("normale bouw")
+
+  } else if (25 <= BMI && BMI < 30) {
+
+    alert("overgewicht")
+
+  } else if (30 <= BMI && BMI < 35) {
+
+    alert("matige overgewicht")
+
+  } else if (35 <= BMI && BMI < 40) {
+
+    alert("ernstige overgewicht")
+
+  } else if (BMI > 40) {
+
+    alert("morbide obesitas")
+
+  } else {
+    alert("er ging its fout. mischien heb je je mistipt")
+  }
+
+
+}
