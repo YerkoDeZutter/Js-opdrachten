@@ -22,3 +22,7 @@
 
 
 // OPDRACHT 3
+
+let yourName = prompt("what is your name?", "name");
+
+alert("hello " + yourName + " hope you're having a good day");
