@@ -32,10 +32,20 @@
 
 // OPDRACHT 4
 
-let name = prompt("what is your last name?");
-let firstName = prompt("what is your first name?");
-let city = prompt("what is the city you live in?");
+// let name = prompt("what is your last name?");
+// let firstName = prompt("what is your first name?");
+// let city = prompt("what is the city you live in?");
+//
+// alert("name = " + name +
+// "\nfirstName = " + firstName +
+// "\ncity = " + city);
 
-alert("name = " + name +
-"\nfirstName = " + firstName +
-"\ncity = " + city);
+
+
+
+// OPDRACHT 5
+
+let a = parseInt(prompt("give me a number, any number"));
+let b = parseInt(prompt("AGAIN"));
+
+alert(a + " x " + b + " = " + (a*b));
