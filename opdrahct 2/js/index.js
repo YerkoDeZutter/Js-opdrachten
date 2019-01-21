@@ -149,3 +149,16 @@ function op7s1(){
     alert("Excuse me, what do you want?")
   }
 }
+
+
+
+
+
+// OPDRACHT 8
+
+let dagen = ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"]
+
+function op8s1(){
+  let dayNum = Math.floor(Math.random()*(dagen.length - 1))
+  alert(dagen[dayNum])
+}
