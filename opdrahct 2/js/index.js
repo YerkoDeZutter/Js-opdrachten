@@ -129,3 +129,23 @@ function op6s2(){
   let last_num = tab.length - 1
   alert(op4s1(-1) + tab[last_num])
 }
+
+
+
+
+
+// OPDRACHT 7
+
+function op7s1(){
+  let choice = prompt("kies 1, 2 of 3");
+
+  if(choice == "1"){
+    alert("1. Thank you");
+  } else if (choice == "2") {
+    alert("2. Hello");
+  } else if (choice == "3") {
+    alert("3. Good bye");
+  } else {
+    alert("Excuse me, what do you want?")
+  }
+}
