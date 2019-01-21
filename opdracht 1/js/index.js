@@ -67,3 +67,17 @@ function multiplicatsie(){
 function op7(){
   alert("(((((Length x 2) + 5) x 50) - Year of birth) + 1766) = " + (((((parseInt(Length.value) * 2) + 5) * 50) - parseInt(birth.value)) + 1766))
 }
+
+
+
+
+// OPDRACHT 8
+
+function op8(){
+  let ageNum = parseInt(age.value);
+  if(ageNum >= 18){
+    alert("U bent meerderjarig");
+  } else {
+    alert("U bent minderjarig");
+  }
+}
