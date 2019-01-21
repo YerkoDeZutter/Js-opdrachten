@@ -1,11 +1,10 @@
-
 // OPDRACHT 1
 
-function surfaceRectagle(){
+function surfaceRectagle() {
   op1con.innerHTML = '<label for="rectB">Rect Breete : </label><input type="text" id="rectB" name="rectB"/><br/><label for="rectL">REct Lengte : </label><input type="text" id="rectL" name="rectL"/><br/><button onclick="op1s2()" id="validate" name="validate">Validate</button>';
 }
 
-function op1s2(){
+function op1s2() {
   rectB = parseInt(rectB.value);
   rectL = parseInt(rectL.value);
   alert("breete = " + rectB + "\nlengte = " + rectL + "\nomtrek = " + ((rectB + rectL) * 2))
@@ -17,7 +16,7 @@ function op1s2(){
 // OPDRACHT 2
 
 
-function op2s1(){
+function op2s1() {
   straal = parseInt(straal.value);
   alert(straal * straal * Math.PI);
 }
@@ -30,13 +29,13 @@ function op2s1(){
 let a = 3;
 let b = 2;
 
-function op3s1(){
+function op3s1() {
   let x = 5;
-  alert(x + " x 5 = " + (x*5))
+  alert(x + " x 5 = " + (x * 5))
   op3s2()
 }
 
-function op3s2(){
+function op3s2() {
   a *= 5
   b *= 5
   alert("a = " + a + " b = " + b)
@@ -49,11 +48,11 @@ function op3s2(){
 
 let tab = [-2, 1, 4];
 
-function op4s1(x){
+function op4s1(x) {
   return x
 }
 
-function op4s2(){
+function op4s2() {
   alert(op4s1(1) + tab[0])
   let last_num = tab.length - 1
   alert(op4s1(1) + tab[last_num])
@@ -68,48 +67,37 @@ function op4s2(){
 let a5 = 1;
 let b5 = 1;
 
-// a=b++;
-// a=++b;
-// a=b--;
-// a=--b;
-// a+=b++;
-// a=1; a+=++b;
-// a=1; a-=b++;
-// a=1; a-=++b;
-// a=1; a+=b--;
-// a=1; a+=--b;
-
-function op5s1(a, b){
-  a=b++;
+function op5s1(a, b) {
+  a = b++;
   alert(a)
-  a=++b;
+  a = ++b;
   alert(a)
-  a=b--;
+  a = b--;
   alert(a)
-  a=--b;
+  a = --b;
   alert(a)
-  a+=b++;
+  a += b++;
   alert(a)
-  a=1;
+  a = 1;
   alert(a)
-  a+=++b;
-   alert(a)
-  a=1;
+  a += ++b;
   alert(a)
-  a-=b++;
-   alert(a)
-  a=1;
+  a = 1;
   alert(a)
-  a-=++b;
-   alert(a)
-  a=1;
+  a -= b++;
   alert(a)
-  a+=b--;
-   alert(a)
-  a=1;
+  a = 1;
   alert(a)
-  a+=--b;
-   alert(a)
+  a -= ++b;
+  alert(a)
+  a = 1;
+  alert(a)
+  a += b--;
+  alert(a)
+  a = 1;
+  alert(a)
+  a += --b;
+  alert(a)
 }
 
 
@@ -120,11 +108,11 @@ function op5s1(a, b){
 
 let tab2 = [-2, 1, 4];
 
-function op6s1(x){
+function op6s1(x) {
   return x
 }
 
-function op6s2(){
+function op6s2() {
   alert(op4s1(-1) + tab[0])
   let last_num = tab.length - 1
   alert(op4s1(-1) + tab[last_num])
@@ -136,10 +124,10 @@ function op6s2(){
 
 // OPDRACHT 7
 
-function op7s1(){
+function op7s1() {
   let choice = prompt("kies 1, 2 of 3");
 
-  if(choice == "1"){
+  if (choice == "1") {
     alert("1. Thank you");
   } else if (choice == "2") {
     alert("2. Hello");
@@ -158,8 +146,8 @@ function op7s1(){
 
 let dagen = ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"]
 
-function op8s1(){
-  let dayNum = Math.floor(Math.random()*(dagen.length - 1))
+function op8s1() {
+  let dayNum = Math.floor(Math.random() * (dagen.length - 1))
   var d = new Date();
   var vandaag = d.getDay();
   alert("waneer gebeurt het? : " + dagen[dayNum] + "\nmaar vandaag is het : " + dagen[vandaag])
@@ -173,9 +161,10 @@ function op8s1(){
 
 let Ptext = "";
 
-function op9s1(){
-  if(Ptext.indexOf("p") == -1){
+function op9s1() {
+  if (Ptext.indexOf("p") == -1) {
     Ptext = prompt("pleas give us a text whit a P somewhere inside it.")
+    alert("DIT HEEFT GEEN P")
     op9s1()
   } else {
     Ptag.innerHTML = Ptext
@@ -191,10 +180,48 @@ function op9s1(){
 
 // OPDRACHT 10
 
-function op10s1(){
+function op10s1() {
   let num1 = parseInt(prompt("geef is een nummer"))
   let num2 = parseInt(prompt("geef is nog een nummer"))
   let num3 = parseInt(prompt("alee dit is de laatste nummer"))
 
   alert(num1 + " + " + num2 + " + " + num3 + " = " + (num1 + num2 + num3))
+}
+
+
+
+
+
+
+// OPDRACHT 11
+
+let numSet = [];
+
+
+function op11s1() {
+
+  for (var i = 0; i < 10; i++) {
+    let ranNum = parseInt(prompt("give us a num " + (i + 1) + " of the 10"))
+    if (ranNum >= 0) {
+      numSet.push(ranNum)
+    } else {
+      numSet.push(0);
+    }
+    checknum()
+
+    function checknum() {
+      if (numSet[i] != parseInt(numSet[i], 10)) {
+        alert("DIT IS GEEN GETAL");
+        numSet.pop();
+        numSet.push(parseInt(prompt("give us a num " + (i + 1) + " of the 10")))
+        checknum()
+      }
+    }
+  }
+
+  let sum = numSet.reduce((previous, current) => current += previous);
+  let avg = sum / numSet.length;
+
+  alert("het gemigelde van alle getallen dut u heeft gegeven is " + avg);
+
 }
