@@ -183,3 +183,18 @@ function op9s1(){
     op9s1()
   }
 }
+
+
+
+
+
+
+// OPDRACHT 10
+
+function op10s1(){
+  let num1 = parseInt(prompt("geef is een nummer"))
+  let num2 = parseInt(prompt("geef is nog een nummer"))
+  let num3 = parseInt(prompt("alee dit is de laatste nummer"))
+
+  alert(num1 + " + " + num2 + " + " + num3 + " = " + (num1 + num2 + num3))
+}
