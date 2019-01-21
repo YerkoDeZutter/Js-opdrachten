@@ -15,3 +15,14 @@ function op1s2(){
 
 
 // OPDRACHT 2
+
+
+function op2s1(){
+  straal = parseInt(straal.value);
+  alert(straal * straal * Math.PI);
+}
+
+
+
+
+// OPDRACHT 3
