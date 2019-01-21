@@ -111,3 +111,21 @@ function op5s1(a, b){
   a+=--b;
    alert(a)
 }
+
+
+
+
+
+// OPDRACHT 6
+
+let tab2 = [-2, 1, 4];
+
+function op6s1(x){
+  return x
+}
+
+function op6s2(){
+  alert(op4s1(-1) + tab[0])
+  let last_num = tab.length - 1
+  alert(op4s1(-1) + tab[last_num])
+}
