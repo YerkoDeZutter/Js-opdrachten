@@ -23,6 +23,19 @@
 
 // OPDRACHT 3
 
-let yourName = prompt("what is your name?", "name");
+// let yourName = prompt("what is your name?", "name");
+//
+// alert("hello " + yourName + " hope you're having a good day");
 
-alert("hello " + yourName + " hope you're having a good day");
+
+
+
+// OPDRACHT 4
+
+let name = prompt("what is your last name?");
+let firstName = prompt("what is your first name?");
+let city = prompt("what is the city you live in?");
+
+alert("name = " + name +
+"\nfirstName = " + firstName +
+"\ncity = " + city);
