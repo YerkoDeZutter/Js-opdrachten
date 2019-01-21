@@ -225,3 +225,41 @@ function op11s1() {
   alert("het gemigelde van alle getallen dut u heeft gegeven is " + avg);
 
 }
+
+
+
+
+
+
+// OPDRACHT 12
+
+function op12s1(){
+  let functieNum = parseInt(prompt("0: End of the program " + "\n1: Celsius to Fahrenheit " + "\n2: Celsius to Kelvin " + "\n3: Fahrenheit to Celsius " + "\n4: Fahrenheit to Kelvin " + "\n5: Kelvin to Celsius " + "\n6: Kelvin to Fahrenheit"))
+
+  let grade = parseInt(prompt("what is het orgineel getal?"))
+
+
+    if(functieNum == 1){
+      grade = (grade * 9/5) + 32;
+
+    } else if (functieNum == 2) {
+      grade = grade + 273,15;
+
+    } else if (functieNum == 3) {
+      grade = (grade - 32) / (9/5);
+
+    } else if (functieNum == 4) {
+      grade = ((grade - 32) * (5/9)) + 273,15;
+
+    } else if (functieNum == 5) {
+      grade = grade - 273,15;
+
+    } else if (functieNum == 6) {
+      grade = (grade * 9/5) - 459,67;
+    } else {
+      alert("nope")
+    }
+
+    alert("de grade in u gegeven metode is " + grade)
+
+}
