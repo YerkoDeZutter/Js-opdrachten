@@ -26,3 +26,18 @@ function op2s1(){
 
 
 // OPDRACHT 3
+
+let a = 3;
+let b = 2;
+
+function op3s1(){
+  let x = 5;
+  alert(x + " x 5 = " + (x*5))
+  op3s2()
+}
+
+function op3s2(){
+  a *= 5
+  b *= 5
+  alert("a = " a + " b = " + b)
+}
