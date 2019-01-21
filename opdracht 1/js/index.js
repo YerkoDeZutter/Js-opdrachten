@@ -45,7 +45,16 @@
 
 // OPDRACHT 5
 
-let a = parseInt(prompt("give me a number, any number"));
-let b = parseInt(prompt("AGAIN"));
+// let a = parseInt(prompt("give me a number, any number"));
+// let b = parseInt(prompt("AGAIN"));
+//
+// alert(a + " x " + b + " = " + (a*b));
 
-alert(a + " x " + b + " = " + (a*b));
+
+
+
+// OPDRACHT 6
+
+function fullName(){
+  alert(firstNumber.value + " " + secondNumber.value)
+}
