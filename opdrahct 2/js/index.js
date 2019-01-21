@@ -39,5 +39,22 @@ function op3s1(){
 function op3s2(){
   a *= 5
   b *= 5
-  alert("a = " a + " b = " + b)
+  alert("a = " + a + " b = " + b)
+}
+
+
+
+
+// OPDRACHT 4
+
+let tab = [-2, 1, 4];
+
+function op4s1(x){
+  return x
+}
+
+function op4s2(){
+  alert(op4s1(1) + tab[0])
+  let last_num = tab.length - 1
+  alert(op4s1(1) + tab[last_num])
 }
