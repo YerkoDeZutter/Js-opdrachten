@@ -160,5 +160,7 @@ let dagen = ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag",
 
 function op8s1(){
   let dayNum = Math.floor(Math.random()*(dagen.length - 1))
-  alert(dagen[dayNum])
+  var d = new Date();
+  var vandaag = d.getDay();
+  alert("waneer gebeurt het? : " + dagen[dayNum] + "\nmaar vandaag is het : " + dagen[vandaag])
 }
