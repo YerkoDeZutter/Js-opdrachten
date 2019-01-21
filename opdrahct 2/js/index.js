@@ -58,3 +58,56 @@ function op4s2(){
   let last_num = tab.length - 1
   alert(op4s1(1) + tab[last_num])
 }
+
+
+
+
+
+// OPDRACHT 5
+
+let a5 = 1;
+let b5 = 1;
+
+// a=b++;
+// a=++b;
+// a=b--;
+// a=--b;
+// a+=b++;
+// a=1; a+=++b;
+// a=1; a-=b++;
+// a=1; a-=++b;
+// a=1; a+=b--;
+// a=1; a+=--b;
+
+function op5s1(a, b){
+  a=b++;
+  alert(a)
+  a=++b;
+  alert(a)
+  a=b--;
+  alert(a)
+  a=--b;
+  alert(a)
+  a+=b++;
+  alert(a)
+  a=1;
+  alert(a)
+  a+=++b;
+   alert(a)
+  a=1;
+  alert(a)
+  a-=b++;
+   alert(a)
+  a=1;
+  alert(a)
+  a-=++b;
+   alert(a)
+  a=1;
+  alert(a)
+  a+=b--;
+   alert(a)
+  a=1;
+  alert(a)
+  a+=--b;
+   alert(a)
+}
