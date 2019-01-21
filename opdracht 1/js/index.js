@@ -63,3 +63,7 @@ function multiplicatsie(){
 
 
 // OPDRACHT 7
+
+function op7(){
+  alert("(((((Length x 2) + 5) x 50) - Year of birth) + 1766) = " + (((((parseInt(Length.value) * 2) + 5) * 50) - parseInt(birth.value)) + 1766))
+}
