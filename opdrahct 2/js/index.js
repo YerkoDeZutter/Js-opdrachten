@@ -164,3 +164,22 @@ function op8s1(){
   var vandaag = d.getDay();
   alert("waneer gebeurt het? : " + dagen[dayNum] + "\nmaar vandaag is het : " + dagen[vandaag])
 }
+
+
+
+
+
+// OPDRACHT 9
+
+let Ptext = "";
+
+function op9s1(){
+  if(Ptext.indexOf("p") == -1){
+    Ptext = prompt("pleas give us a text whit a P somewhere inside it.")
+    op9s1()
+  } else {
+    Ptag.innerHTML = Ptext
+    Ptext = prompt("pleas give us a text whit a P somewhere inside it.")
+    op9s1()
+  }
+}
