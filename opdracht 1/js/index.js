@@ -1,12 +1,24 @@
 
-// VARIUBELLS
+// OPDRACHT 1
 
-let begin = "lets start buddy";
+// let begin = "lets start buddy";
+//
+// alert(begin)
 
-let name = "jhon";
-let firstName = "jimmy";
-let city = "albacurky";
 
-alert("name = " + name +
-"\nfirstName = " + firstName +
-"\ncity = " + city);
+
+
+// OPDRACHT 2
+
+// let name = "jhon";
+// let firstName = "jimmy";
+// let city = "albacurky";
+//
+// alert("name = " + name +
+// "\nfirstName = " + firstName +
+// "\ncity = " + city);
+
+
+
+
+// OPDRACHT 3
