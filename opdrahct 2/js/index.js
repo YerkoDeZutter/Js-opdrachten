@@ -272,47 +272,43 @@ function op12s1(){
 
 function op13s1(){
   let gewicht = parseInt(prompt("pleas geef wu gewicht"));
-  let lengte = parseFloat(prompt("pleas geef wu lengte").replace(/,/g, ''));
-
-  console.log(lengte);
+  let lengte = (parseFloat(prompt("pleas geef wu lengte").replace(/,/g, '')) / 100).toFixed(2);
 
   let berekening = (gewicht / (lengte * lengte));
 
   let BMI = berekening;
 
-  console.log(BMI);
-
 
   if(BMI < 16.5){
 
-    alert("ondervoeding of hongersnood")
+    alert("u hebt een BMI van " + BMI + " u bent ondervoeding of hongersnood")
 
   } else if (16.5 <= BMI && BMI < 18.5) {
 
-    alert("dunheid")
+    alert("u hebt een BMI van " + BMI + " u bent dunheid")
 
   } else if (18.5 <= BMI && BMI < 25) {
 
-    alert("normale bouw")
+    alert("u hebt een BMI van " + BMI + " u bent normale bouw")
 
   } else if (25 <= BMI && BMI < 30) {
 
-    alert("overgewicht")
+    alert("u hebt een BMI van " + BMI + " u bent overgewicht")
 
   } else if (30 <= BMI && BMI < 35) {
 
-    alert("matige overgewicht")
+    alert("u hebt een BMI van " + BMI + " u bent matige overgewicht")
 
   } else if (35 <= BMI && BMI < 40) {
 
-    alert("ernstige overgewicht")
+    alert("u hebt een BMI van " + BMI + " u bent ernstige overgewicht")
 
   } else if (BMI > 40) {
 
-    alert("morbide obesitas")
+    alert("u hebt een BMI van " + BMI + " u bent morbide obesitas")
 
   } else {
-    alert("er ging its fout. mischien heb je je mistipt")
+    alert("u hebt een BMI van " + BMI + " u bent er ging its fout. mischien heb je je mistipt")
   }
 
 
