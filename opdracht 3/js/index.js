@@ -11,6 +11,16 @@
 
 // ----- OPDRACHT 2 -----
 
-function op2s1(){
-  alert("Dank u voor uw deelname")
+// function op2s1(){
+//   alert("Dank u voor uw deelname")
+// }
+
+
+
+
+
+// ----- OPDRACHT 3 -----
+
+function op3s1(){
+  alert(nameGiven.value)
 }
