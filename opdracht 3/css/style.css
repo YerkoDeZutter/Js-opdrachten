@@ -1,0 +1,8 @@
+#hoverImg{
+  width: 200px;
+  height: 400px;
+  background-image: url('../img/Rintaro-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
