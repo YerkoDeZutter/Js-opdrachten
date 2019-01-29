@@ -34,9 +34,7 @@
 // ----- OPDRACHT 4 -----
 
 function op4s1(){
-  if(password.value == confirmation.value){
-    console.log(11);
-  } else {
-    console.log(12);
-  }
+  lastName.value = ""
+  firstName.value = ""
+  city.value = ""
 }
