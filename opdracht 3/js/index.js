@@ -31,7 +31,7 @@
 
 
 
-// ----- OPDRACHT 3 -----
+// ----- OPDRACHT 4 -----
 
 function op4s1(){
   if(password.value == confirmation.value){
