@@ -21,6 +21,18 @@
 
 // ----- OPDRACHT 3 -----
 
-function op3s1(){
-  alert(nameGiven.value)
+// document.addEventListener("keydown", op3s1);
+
+// function op3s1(){
+//   alert(nameGiven.value)
+// }
+
+
+
+
+
+// ----- OPDRACHT 3 -----
+
+function op4s1(){
+
 }
