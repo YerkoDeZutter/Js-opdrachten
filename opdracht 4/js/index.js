@@ -2,17 +2,17 @@
 // ----- OPDRACHT 1 -----
 
 
-  image1.addEventListener("mouseover", op1s1)
-  image1.addEventListener("mouseout", op1s2)
-
-function op1s1(evt){
-
-      image1.src = "img/image1_2.jpg";
-}
-
-function op1s2(evt){
-      image1.src = "img/image1.jpg";
-}
+//   image1.addEventListener("mouseover", op1s1)
+//   image1.addEventListener("mouseout", op1s2)
+//
+// function op1s1(evt){
+//
+//       image1.src = "img/image1_2.jpg";
+// }
+//
+// function op1s2(evt){
+//       image1.src = "img/image1.jpg";
+// }
 
 
 
@@ -20,7 +20,14 @@ function op1s2(evt){
 
 // ----- OPDRACHT 2 -----
 
+function op2s2() {
+  textOp2.style.display = "none";
+  console.log(11);
+}
 
+function op2s1() {
+  textOp2.style.display = "block";
+}
 
 
 
