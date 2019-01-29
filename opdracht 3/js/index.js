@@ -45,17 +45,48 @@
 
 // ----- OPDRACHT 5 -----
 
+// let imgs = document.querySelectorAll("img");
+//
+// imgs.forEach(img =>{
+//   img.addEventListener("mouseover", op5s1)
+// })
+//
+// function op5s1(evt){
+//   for( var i = 0 ; i < imgs.length ; i++ ){
+//     if(evt.currentTarget == imgs[i]){
+//       j = i + 1;
+//       imgs[i].src = "img/image" + j + "_2.jpg";
+//     }
+//   }
+// }
+
+
+
+
+
+// ----- OPDRACHT 6 -----
+
 let imgs = document.querySelectorAll("img");
 
 imgs.forEach(img =>{
-  img.addEventListener("mouseover", op5s1)
+  img.addEventListener("mouseover", op6s1)
+  img.addEventListener("mouseout", op6s2)
 })
 
-function op5s1(evt){
+function op6s1(evt){
   for( var i = 0 ; i < imgs.length ; i++ ){
     if(evt.currentTarget == imgs[i]){
       j = i + 1;
       imgs[i].src = "img/image" + j + "_2.jpg";
+    }
+  }
+}
+
+function op6s2(evt){
+  for( var i = 0 ; i < imgs.length ; i++ ){
+    if(evt.currentTarget == imgs[i]){
+      j = i + 1;
+      imgs[i].src = "img/image" + j + ".jpg";
     }
   }
 }
